@@ -13,4 +13,4 @@ then run the script.
 
 it restarts the apache service as well.  You can comment out or delete that line if you wish.
 
-
+You may be prompted for a password, that is because this runs the apt-get install command and that may require su priviledge.  If you are concern, do not use the script, instead you can use each of the commands on its own by looking at the content of phpfix.sh.
