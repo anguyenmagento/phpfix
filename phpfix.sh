@@ -1,5 +1,7 @@
 #!/bin/sh
 
+echo "You will be prompted for your password, most systems require it to run apt-get, when you do please enter it..."
+
 sudo apt-get update
 
 sudo apt-get install php7.0-gd
